@@ -315,14 +315,27 @@
 		},
 
 	"4001":{
-		"name": "St. John's wort",
+		"name": "Hypericum",
 		"icon": "herb2",
 		"type": "alchemy",
 		"storage": "herbs",
 		"effect": {"hp": 1},
 		"weight": 0.8,
 		"stackable": true,
-		"description":"Herb of St. John's wort",
+		"description":"Herb of Hypericum",
+		"cost": 10,
+		"slot": -1
+		},
+	
+	"4002":{
+		"name": "Cankerberries",
+		"icon": "herb2",
+		"type": "alchemy",
+		"storage": "herbs",
+		"effect": {"hp": 2},
+		"weight": 0.1,
+		"stackable": true,
+		"description":"Red and soft",
 		"cost": 10,
 		"slot": -1
 		},
