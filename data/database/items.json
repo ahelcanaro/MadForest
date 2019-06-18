@@ -305,7 +305,7 @@
 		"name": "Plantain",
 		"icon": "herb1",
 		"type": "alchemy",
-		"storage": "herbs",
+		"storage": "alchemy",
 		"effect": {"hp": 5},
 		"weight": 0.8,
 		"stackable": true,
@@ -318,7 +318,7 @@
 		"name": "Hypericum",
 		"icon": "herb2",
 		"type": "alchemy",
-		"storage": "herbs",
+		"storage": "alchemy",
 		"effect": {"hp": 1},
 		"weight": 0.8,
 		"stackable": true,
@@ -331,11 +331,61 @@
 		"name": "Cankerberries",
 		"icon": "herb2",
 		"type": "alchemy",
-		"storage": "herbs",
+		"storage": "alchemy",
 		"effect": {"hp": 2},
 		"weight": 0.1,
 		"stackable": true,
 		"description":"Red and soft",
+		"cost": 10,
+		"slot": -1
+		},
+	
+	"5000":{
+		"name": "Сырое ямсо",
+		"icon": "rawMeat",
+		"type": "food",
+		"storage": "food",
+		"effect": {"hp": 5},
+		"weight": 0.1,
+		"stackable": true,
+		"description":"Лучше это приготовить",
+		"cost": 8,
+		"slot": -1
+		},
+	
+	"5001":{
+		"name": "Жареное мясо",
+		"icon": "cookedMeat",
+		"type": "food",
+		"storage": "food",
+		"effect": {"hp": 10},
+		"weight": 0.1,
+		"stackable": true,
+		"description":"С хрустящей корочкой",
+		"cost": 15,
+		"slot": -1
+		},
+	
+	"6000":{
+		"name": "Железная руда",
+		"icon": "oreIron",
+		"type": "other",
+		"storage": "other",
+		"weight": 0.1,
+		"stackable": true,
+		"description":"Если переплавить - будет железо",
+		"cost": 10,
+		"slot": -1
+		},
+		
+	"6010":{
+		"name": "Железная заготовка",
+		"icon": "ironRod",
+		"type": "other",
+		"storage": "other",
+		"weight": 0.1,
+		"stackable": true,
+		"description":"Из этого мог бы получиться неплохой меч",
 		"cost": 10,
 		"slot": -1
 		},
